@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Lovelo Black
+font link: https://www.fontfabric.com/lovelo-font/
+font author: Renzler Design
+font author site: http://www.braenda.com/
+
+
+icon designer: David Ly
+icon designer link: /nerdyhippo
+        
+{"bg-gradient-0":"#08C7D6","bg-gradient-1":"#02023E","icon":"#ffffff","font":"#ffffff","slogan":"#ffffff"}
+      
