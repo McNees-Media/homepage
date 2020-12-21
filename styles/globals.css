@@ -12,8 +12,8 @@ a {
   border-radius: .5rem;
   padding: 1rem;
   color: white;
-  transition: all 300ms;
-  transition-delay: 100ms;
+  transition: all 400ms;
+  transition-delay: 50ms;
 }
 
 a:hover {
@@ -34,6 +34,7 @@ a:hover {
   align-items: center;
   background: rgb(8, 199, 214);
   background: linear-gradient(153deg, rgba(8, 199, 214, 1) 0%, rgba(2, 2, 62, 1) 100%);
+  background-attachment: fixed;
 }
 
 main {
@@ -45,11 +46,17 @@ main {
   align-items: center;
 }
 
-.logo {
+.logoLink {
   border: none;
+  display: flex;
+  justify-content: center;
 }
 .logo:hover {
   background-color: unset;
   color: unset;
   transform: none;
+}
+
+.logoLink img {
+  max-width: 100%;
 }
