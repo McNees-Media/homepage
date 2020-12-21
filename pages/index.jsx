@@ -1,6 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
+import { ImProfile, ImLinkedin, ImTwitter, ImStack } from "react-icons/im";
+
 export default function Home() {
   return (
     <div className="container">
@@ -31,34 +33,34 @@ export default function Home() {
       </Head>
 
       <main>
-        <a href="/" className="logo">
+        <a href="/" className="logoLink">
           <img src="/assets/images/logo/logo.png" alt="McNees Media" />
         </a>
-        <h1 className={styles.heading}>And the work of Michael McNees</h1>
+        <h1 className={styles.heading}>And the homepage of Michael McNees</h1>
         <div className={styles.links}>
           <a
             className={styles.link}
             href="https://www.dropbox.com/s/874z72ozftqsikf/MichaelMcNees_Resume_2020.pdf?dl=0"
             target="_blank"
           >
-            Resume
+            <ImProfile /> Resume
           </a>
           <a
             className={styles.link}
             href="https://www.linkedin.com/in/michaelmcnees/"
             target="_blank"
           >
-            LinkedIn
+            <ImLinkedin /> LinkedIn
           </a>
           <a
             className={styles.link}
             href="https://twitter.com/bsknuckles"
             target="_blank"
           >
-            Twitter
+            <ImTwitter /> Twitter
           </a>
           <a className={styles.link} href="/portfolio">
-            Portfolio
+            <ImStack /> Portfolio
           </a>
         </div>
       </main>
