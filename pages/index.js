@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <title>McNees Media</title>
         <link rel="icon" href="/favicon.ico" />
@@ -30,8 +30,8 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
 
-      <main className={styles.main}>
-        <a href="/">
+      <main>
+        <a href="/" className="logo">
           <img src="/assets/images/logo/logo.png" alt="McNees Media" />
         </a>
         <h1 className={styles.heading}>And the work of Michael McNees</h1>
@@ -57,7 +57,9 @@ export default function Home() {
           >
             Twitter
           </a>
-          {/* <a className={styles.link} href="/portfolio">Portfolio</a> */}
+          <a className={styles.link} href="/portfolio">
+            Portfolio
+          </a>
         </div>
       </main>
     </div>
